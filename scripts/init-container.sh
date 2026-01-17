@@ -39,6 +39,8 @@ if [ -f "\$HOME/Firmware/Tools/simulation/gazebo-classic/setup_gazebo.bash" ]; t
 fi
 
 export GAZEBO_MODEL_PATH="\${GAZEBO_MODEL_PATH}:${WORKSPACE_PATH}/src/avoidance/avoidance/sim/models:${WORKSPACE_PATH}/src/avoidance/avoidance/sim/worlds"
+export GAZEBO_MODEL_PATH="\${GAZEBO_MODEL_PATH}:/opt/ros/jazzy/share/turtlebot3_gazebo/models"
+export TURTLEBOT3_MODEL=burger
 export ROS_PACKAGE_PATH="\${ROS_PACKAGE_PATH}:\$HOME/Firmware"
 EOF
 
