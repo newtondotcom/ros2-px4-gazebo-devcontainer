@@ -7,7 +7,7 @@
       },
       "includePath": [
         "${workspaceFolder}/install/my_cpp_py_pkg/include/**",
-        "/opt/ros/kilted/include/**",
+        "/opt/ros/jazzy/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
